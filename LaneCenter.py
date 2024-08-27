@@ -13,8 +13,8 @@ class LaneFollowingRobot:
         self.state = "straight"  # Starting state
         self.last_corner_type = None
         
-        # Initialize USB webcam (device index 0)
-        self.cap = cv2.VideoCapture(0)
+       
+        self.cap = cv2.VideoCapture(0) #usb webcam initialised
         if not self.cap.isOpened():
             raise Exception("Error: Unable to access the webcam.")
 
@@ -143,6 +143,6 @@ class LaneFollowingRobot:
             self.diff_pwm.stop()
             GPIO.cleanup()
 
-# Instantiate and run the robot
+#run the bot
 robot = LaneFollowingRobot()
 robot.run()
