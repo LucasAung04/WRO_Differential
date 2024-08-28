@@ -12,5 +12,9 @@ We are Students from Robotics Innovation & Technology club from Singapore Polyth
 *	**Breadboard** 
 *	**2 x 8 cm diameter back wheel** 
 *	**2 x 5 cm diameter front wheel**
-*	**Webcam** 
+*	**Asus Webcam C3** 
 *	**3 x ultrasonics sensors**
+
+### Steering 
+
+For steering, we use principles of Ackerman Steering Mechanism. The steering is connected by Tie Rod which make two wheels turn at different angles. So, it make possible for two wheels rotates at different speed which make turning smoother.  
